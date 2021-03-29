@@ -1,0 +1,235 @@
+@media (max-width:1400px) {
+    .mid-content{
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+}
+@media (max-width:1150px) {
+    .p-content ul li{
+        margin: 14px 0;
+        font-size: 18px;
+    }
+    .p-content ul li span{
+        width: 40px;
+        font-size: 28px;
+    }
+    .p-heading p{
+        font-size: 15px;
+        }
+    .p-heading h5{
+        font-size: 19px;
+    }
+    .section-title h1{
+        font-size: 50px;
+    }
+}
+@media (max-width:1050px) {
+    .logo span{
+        font-size: 20px;
+    }
+    .primary-menu ul li a{
+        padding: 0 13px;
+        font-size: 15px;
+    }
+    .video-content-right h3{
+        font-size: 34px;
+        margin-bottom: 27px;
+    }
+    .header-section{
+        position: relative;
+    }
+    .banner-section{
+        margin-top: 0;
+    }
+    .p-content ul li {
+        font-size: 17px;
+    }
+    .blog-post-item img{
+        width: 100%;
+        margin-bottom: 22px;
+        margin-right: 30px;
+    }
+    .blog-post-item{
+        padding: 20px;
+        box-sizing: border-box;
+    }
+}
+
+
+/* main style */
+.primary-menu span {
+    display: none;
+}
+
+@media (max-width:992px) {
+    .header-logo{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .logo span {
+        position: relative;
+        top: -22px;
+    }
+    .logo img {
+        float: inherit;
+    }
+    .primary-menu ul {
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+    }
+    .header-menu {
+        width: 100%;
+    }
+    .header-button {
+        width: 100%;
+        position: absolute;
+        top: 72px;
+        right: 21px;
+    }
+    .primary-menu span {
+        font-size: 40px;
+        color: #6278df;
+        cursor: pointer;
+        display: block;
+    }
+    .video-left {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .video-content-right {
+        width: 100%;
+    }
+    .section-title h1{
+        font-size: 40px;
+    }
+    .service-box{
+        width: 48%;
+    }
+    .service-box:nth-child(3n+3) {
+        margin-right: 20px;
+    }
+    .service-box:nth-child(2n+2) {
+        margin-right: 0;
+    }
+    .table-item{
+        width: 100%;
+    }
+    .member {
+        width: 48%;
+        margin-bottom: 25px;
+    }
+}
+
+
+@media (max-width:768px) {
+    .banner-content h2 {
+        font-size: 49px;
+    }
+    .default-btn {
+        padding: 16px 20px;
+        font-size: 17px;
+    }
+    .header-section{
+        position: relative;
+    }
+    .banner-section{
+        margin-top: 0;
+        padding: 95px 0;
+    }
+    .section-title h1{
+        font-size: 35px;
+        margin-bottom: 25px;
+        font-weight: 500;
+    }
+    .section-title p{
+        font-size: 20px;
+    }
+    .service-box{
+        width: 100%;
+    }
+    .service-box:nth-child(3n+3) {
+        margin-right: 20px;
+    }
+    .service-box:nth-child(2n+2) {
+        margin-right: 20px;
+    }
+    .service-box:nth-child(1n+1) {
+        margin-right: 20px;
+    }
+    .default-input {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .b-heading h2 {
+        font-size: 31px;
+    }
+    .bt-content p {
+        font-size: 18px;
+        line-height: 1.5em;
+    }
+    .i-item{
+        width: 100%;
+        margin-bottom: 2%;
+    }
+    .content-left-map {
+        width: 100%;
+    }
+    .content-right-form {
+        width: 100%;
+        margin-top: 40px;
+    }
+}
+
+
+@media (max-width:600px) {
+    .blog-post-item{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:475px) {
+    .banner-content h2{
+        font-size: 40px;
+        margin: 20px 0;
+    }
+    .member {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .b-heading {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .bt-content {
+        width: 100%;
+    }
+}
+
+
+@media (max-width:420px) {
+    .banner-content h2{
+        font-size: 35px;
+        margin: 20px 0;
+    }
+    .banner-content h3 {
+        font-size: 20px;
+    }
+    .default-btn {
+        padding: 15px 25px;
+        font-size: 17px;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .section-title h1 {
+        font-size: 25px;
+    }
+    .section-title p {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+}
+
